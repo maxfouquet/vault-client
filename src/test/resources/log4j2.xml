@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="debug" monitorInterval="30">
+    <Properties>
+        <Property name="emitterType">enabler</Property>
+        <Property name="emitterVersion">1.0.0</Property>
+        <Property name="commonMappingVersion">1.5</Property>
+    </Properties>
+    <Appenders>
+        <Console name="ConsoleAppender">
+            <PatternLayout pattern="%m%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="ConsoleAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

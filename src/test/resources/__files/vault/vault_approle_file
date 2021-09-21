@@ -1,0 +1,5 @@
+vault_addr=http://vault:8200
+vault_namespace=ERABLE/PAAS-TEST
+role=hp-rw-test
+roleid=b07678e8-f924-13fb-bf5f-d9dec506ae27
+secretid=5f59f3ca-919f-1b05-7e42-347d058bbbb4
